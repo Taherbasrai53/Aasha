@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("gp.jpg");
+  
+    /* Full height */
+    height: 100%;
+    margin-left: -8px;
+    margin-top: -16px;
+    margin-right: -8px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.flexbox-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+}
+.logo{
+    margin: 17px 23px;
+}
+.padding{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.padding a{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 25px;
+    text-indent: 50px;
+    color: white;
+    text-decoration: none;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 17px;
+}
+.box{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+.inside{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
